@@ -25,4 +25,4 @@
  - As a Returning User, I would like to find social media links to follow the tattoo studio for information on new designs, promotions and events.
 
 
--   Mobile Wireframe -  [View](readme_media/wireframes/Mobile View.png)
+-   Mobile Wireframe -  [View](readme_media/wireframes/Mobile_View.png)
