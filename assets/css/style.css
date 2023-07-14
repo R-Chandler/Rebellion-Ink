@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Russo+One&display=swap');
+
 /** header **/
 
 #logo {
@@ -9,4 +11,11 @@
 #menu li {
     list-style-type: none;
     float: right;
+    padding: 10px;
+    font-size: 125%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #E6395C;
 }
