@@ -1,0 +1,12 @@
+/** header **/
+
+#logo {
+    float: left;
+    width: 25%;
+    height: 50px;
+}
+
+#menu li {
+    list-style-type: none;
+    float: right;
+}
