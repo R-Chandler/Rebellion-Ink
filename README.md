@@ -41,3 +41,9 @@
 -  Contact Us Page Wireframe 2 -  [View](readme_media/wireframes/Contact_Us_Page_2.png)
 #### Mobile View
 -  Mobile Wireframe -  [View](readme_media/wireframes/Mobile_View.png)
+
+### Picture Credits
+
+Chair arm and tools - <a href="https://www.freepik.com/free-photo/dark-photo-different-equipment-tattoo-making-tattoo-salon_26605680.htm#query=tattoo%20parlor&position=1&from_view=search&track=ais">Image by fxquadro</a> on Freepik
+
+Male tattoo artist - Photo by Pavel Danilyuk: https://www.pexels.com/photo/a-man-in-white-shirt-holding-a-tattoo-machine-6593424/
