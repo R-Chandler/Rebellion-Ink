@@ -64,7 +64,6 @@ header {
 #hero-text {
     position: absolute;
     color: #E6395C;
-    position: absolute;
     top: 30%;
     text-align: center;
     width: 60%;
@@ -84,4 +83,28 @@ header {
     font-size: 150%;
     text-transform: uppercase;
     letter-spacing: 3px;
+}
+
+#consult-button {
+    position: absolute;
+    bottom: 15%;
+    right: 45%;
+}
+
+#consult-button>a {
+    width: 250px;
+    height: 60px;
+    color: #E6395C;
+    border: solid 5px #E6395C;
+    font-family: 'russo one', sans-serif;
+    font-size: large;
+    background-color: transparent;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+#consult-button a:hover {
+    color: #22AFE6;
+    border-color: #22AFE6;
 }
