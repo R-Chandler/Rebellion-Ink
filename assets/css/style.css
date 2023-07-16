@@ -115,7 +115,7 @@ header {
 
 #about-us {
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: 1000px;
 }
 
@@ -135,8 +135,11 @@ header {
     margin: 0 auto;
     color: #E6395C;
     text-align: center;
-    position: relative;
+    margin: auto;
+
     margin-bottom: 10px;
+    position: relative;
+    display: block;
 }
 
 #about-left {
