@@ -116,7 +116,7 @@ header {
 #about-us {
     position: absolute;
     width: 100%;
-    height: 600px;
+    height: 1000px;
 }
 
 #about-us h1 {
@@ -130,11 +130,14 @@ header {
     padding-bottom: 30px;
 }
 
-#about-us p {
+#main-blurb {
     width: 90%;
     color: #E6395C;
     text-align: center;
     margin: auto;
+    margin-bottom: 10px;
+    position: relative;
+    display: block;
 }
 
 #about-left {
