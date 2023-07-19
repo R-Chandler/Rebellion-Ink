@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Russo+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Orbitron:wght@500&family=Righteous&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -224,12 +226,59 @@ header {
     background-color: #3a3a3a;
 }
 
+.artists-div {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 
+#artist-left {
+    position: relative;
+    width: 30%;
+    border: solid 5px #E6395C;
+    height: 300px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 3%;
+}
+
+#artist-left>img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #4EDE26;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#artist-right {
+    position: relative;
+    width: 30%;
+    border: solid 5px #E6395C;
+    height: 300px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 3%;
+}
+
+#artist-right>img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #4EDE26;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
 
 /** Review Block **/
 
 #review-block {
-    height: 700px;
+    height: 600px;
     width: 100%;
 }
 
@@ -239,8 +288,8 @@ header {
 }
 
 .review {
-    height: 500px;
-    width: 15%;
+    height: 400px;
+    width: 20%;
     border: solid 5px #E6395C;
     border-radius: 15px;
 }
@@ -248,7 +297,7 @@ header {
 /** Footer **/
 
 footer {
-    height: 100px;
+    height: 120px;
     width: 100%;
     background-color: black;
 }

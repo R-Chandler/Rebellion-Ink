@@ -48,6 +48,7 @@
 Chair arm and tools - <a href="https://www.freepik.com/free-photo/dark-photo-different-equipment-tattoo-making-tattoo-salon_26605680.htm#query=tattoo%20parlor&position=1&from_view=search&track=ais">Image by fxquadro</a> on Freepik
 
 Male tattoo artist - Photo by Pavel Danilyuk: https://www.pexels.com/photo/a-man-in-white-shirt-holding-a-tattoo-machine-6593424/
+Female tattoo artist - Photo by Antoni Shkraba: https://www.pexels.com/photo/a-female-tattoo-artist-sitting-in-a-tattoo-parlor-7005726/
 
 Tattoo Machine free icon - <a href="https://www.flaticon.com/free-icons/tattoo-machine" title="tattoo machine icons">Tattoo machine icons created by Freepik - Flaticon</a>
 Caring Hand Icon - <a href="https://www.flaticon.com/free-icons/care" title="care icons">Care icons created by Freepik - Flaticon</a>
