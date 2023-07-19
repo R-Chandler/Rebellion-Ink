@@ -10,13 +10,14 @@
 
 body {
     font-family: 'Russo One', sans-serif;
+    background-color: #3a3a3a;
 }
 
 .section-header {
     text-transform: uppercase;
     text-decoration: underline;
     font-family: 'russo one', sans-serif;
-    color: #E6395C;
+    color: #4EDE26;
     text-align: center;
     font-size: 300%;
     padding-top: 30px;
@@ -42,8 +43,9 @@ header {
 #menu li {
     list-style-type: none;
     float: right;
-    padding: 20px;
+    padding: 10px;
     font-size: 125%;
+    border: 2px solid #4EDE26;
 }
 
 #menu a {
@@ -75,12 +77,13 @@ header {
 
 #hero-text {
     position: relative;
-    color: #E6395C;
+    color: #4EDE26;
     top: 30%;
     text-align: center;
     width: 60%;
     background-color: rgba(201, 201, 201, .4);
     margin: 0 20% 0 20%;
+    border-radius: 50px;
 }
 
 #hero-text h1 {
@@ -107,8 +110,8 @@ header {
 #consult-button>a {
     width: 250px;
     height: 60px;
-    color: #E6395C;
-    border: solid 5px #E6395C;
+    color: #4EDE26;
+    border: solid 5px #4EDE26;
     font-family: 'russo one', sans-serif;
     font-size: large;
     background-color: transparent;
@@ -133,7 +136,7 @@ header {
 #main-blurb {
     width: 90%;
     margin: 0 auto;
-    color: #E6395C;
+    color: #4EDE26;
     margin: auto;
     font-size: large;
     text-align: center;
@@ -151,7 +154,7 @@ header {
 #about-left {
     position: relative;
     width: 25%;
-    border: solid 5px #E6395C;
+    border: solid 5px #4EDE26;
     height: 500px;
     border-radius: 15px;
     display: inline-block;
@@ -162,7 +165,7 @@ header {
     position: relative;
     width: 25%;
     margin: 0 auto;
-    border: solid 5px #E6395C;
+    border: solid 5px #4EDE26;
     height: 500px;
     border-radius: 15px;
     display: inline-block;
@@ -173,7 +176,7 @@ header {
     position: relative;
     width: 25%;
     height: 500px;
-    border: solid 5px #E6395C;
+    border: solid 5px #4EDE26;
     border-radius: 15px;
     display: inline-block;
     margin: 3%;
@@ -196,7 +199,7 @@ header {
     letter-spacing: 2px;
     padding: 50px;
     text-decoration: underline;
-    color: #E6395C;
+    color: #4EDE26;
 }
 
 .info-box>p {
@@ -233,46 +236,34 @@ header {
     justify-content: space-around;
 }
 
-#artist-left {
+#artist-box {
     position: relative;
-    width: 30%;
-    border: solid 5px #E6395C;
-    height: 300px;
+    width: 25%;
+    border: solid 5px #4EDE26;
+    height: 500px;
     border-radius: 15px;
     display: inline-block;
     margin: 3%;
 }
 
-#artist-left>img {
-    height: 200px;
-    width: 200px;
+#artist-box>img {
+    height: 250px;
+    width: 250px;
     border: 5px solid #4EDE26;
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
-#artist-right {
+#artist-box>p {
     position: relative;
-    width: 30%;
-    border: solid 5px #E6395C;
-    height: 300px;
-    border-radius: 15px;
-    display: inline-block;
-    margin: 3%;
-}
-
-#artist-right>img {
-    height: 200px;
-    width: 200px;
-    border: 5px solid #4EDE26;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+    color: #4EDE26;
+    text-align: center;
+    background-color: rgba(201, 201, 201, .4);
+    margin: 20% 20% 0 20%;
+    border-radius: 30px;
 }
 
 /** Review Block **/
@@ -290,8 +281,33 @@ header {
 .review {
     height: 400px;
     width: 20%;
-    border: solid 5px #E6395C;
+    border: solid 5px #4EDE26;
     border-radius: 15px;
+}
+
+.review>h2 {
+    color: gold;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.review>h3 {
+    color: #4EDE26;
+    font-size: 150%;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.review>p {
+    color: #4EDE26;
+    text-align: center;
+    border-top: 2px solid #4EDE26;
+    padding-top: 10px;
+    position: relative;
+    bottom: 0%;
 }
 
 /** Footer **/
