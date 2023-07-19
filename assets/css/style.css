@@ -266,6 +266,32 @@ header {
     border-radius: 30px;
 }
 
+#artist-button {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -125px;
+}
+
+#artist-button>a {
+    width: 250px;
+    height: 60px;
+    color: #4EDE26;
+    border: solid 5px #4EDE26;
+    font-family: 'russo one', sans-serif;
+    font-size: large;
+    background-color: transparent;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 20px;
+    margin: auto;
+}
+
+#artist-button a:hover {
+    color: #22AFE6;
+    border-color: #22AFE6;
+}
+
 /** Review Block **/
 
 #review-block {
