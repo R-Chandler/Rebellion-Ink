@@ -28,6 +28,7 @@ header {
     position: fixed;
     z-index: 2;
     width: 100%;
+    background-color: black;
 }
 
 #logo {
@@ -45,7 +46,7 @@ header {
 
 #menu a {
     text-decoration: none;
-    color: #E6395C;
+    color: #4EDE26;
 }
 
 #menu a:hover {
@@ -156,6 +157,7 @@ header {
 }
 
 #about-center {
+    position: relative;
     width: 25%;
     margin: 0 auto;
     border: solid 5px #E6395C;
@@ -166,6 +168,7 @@ header {
 }
 
 #about-right {
+    position: relative;
     width: 25%;
     height: 500px;
     border: solid 5px #E6395C;
@@ -240,4 +243,32 @@ header {
     width: 15%;
     border: solid 5px #E6395C;
     border-radius: 15px;
+}
+
+/** Footer **/
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials>li {
+    display: inline;
+}
+
+.socials i {
+    font-size: 175%;
+    padding: 5px;
+    margin: 2% 5%;
+    color: #4EDE26;
+}
+
+.socials i:hover {
+    border: 2px solid #4EDE26;
+    border-radius: 50%;
 }
