@@ -453,19 +453,19 @@ footer {
 }
 
 #consultation-outer {
-    height: 800px;
+    height: 717px;
     width: 100%;
 }
 
 #form-left {
-    height: 800px;
+    height: 600px;
     width: 50%;
     float: left;
     background-color: red;
 }
 
 #form-right {
-    height: 800px;
+    height: 600px;
     width: 50%;
     float: right;
     background-color: blue;
