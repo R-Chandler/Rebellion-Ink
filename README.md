@@ -53,3 +53,17 @@ Female tattoo artist - Photo by Antoni Shkraba: https://www.pexels.com/photo/a-f
 Tattoo Machine free icon - <a href="https://www.flaticon.com/free-icons/tattoo-machine" title="tattoo machine icons">Tattoo machine icons created by Freepik - Flaticon</a>
 Caring Hand Icon - <a href="https://www.flaticon.com/free-icons/care" title="care icons">Care icons created by Freepik - Flaticon</a>
 Paint Palette Icon - <a href="https://www.flaticon.com/free-icons/palette" title="palette icons">Palette icons created by Freepik - Flaticon</a>
+
+### Gallery Photo Credits
+
+-Photo by <a href="https://unsplash.com/@thomexinxan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hung Pham</a> on <a href="https://unsplash.com/images/things/tattoo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+-Photo by <a href="https://unsplash.com/@majestical_jasmin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jasmin Chew</a> on <a href="https://unsplash.com/images/things/tattoo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+-Photo by <a href="https://unsplash.com/@dnunis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Darren Nunis</a> on <a href="https://unsplash.com/images/things/tattoo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+-Photo by <a href="https://unsplash.com/@matheusfrade?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matheus Frade</a> on <a href="https://unsplash.com/images/things/tattoo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+-Photo by <a href="https://unsplash.com/@matheusfrade?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matheus Frade</a> on <a href="https://unsplash.com/images/things/tattoo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+-Photo by <a href="https://unsplash.com/fr/@ericvieira?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Eric Vieira</a> on <a href="https://unsplash.com/images/things/tattoo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+-Photo by <a href="https://unsplash.com/@jannis_lucas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jannis Lucas</a> on <a href="https://unsplash.com/images/things/tattoo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+-Photo by <a href="https://unsplash.com/@yurii_stupen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yurii Stupen</a> on <a href="https://unsplash.com/images/things/tattoo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+-Photo by <a href="https://unsplash.com/@morsha?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mor Shani</a> on <a href="https://unsplash.com/images/things/tattoo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+-Photo by <a href="https://unsplash.com/ko/@chriskristiansen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Chris Blonk</a> on <a href="https://unsplash.com/images/things/tattoo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
