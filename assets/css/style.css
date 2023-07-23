@@ -416,11 +416,6 @@ footer {
 
 /** Contact Page **/
 
-#consultation-outer {
-    height: 800px;
-    width: 100%;
-}
-
 #contact-info {
     position: absolute;
     height: 300px;
@@ -455,4 +450,23 @@ footer {
     margin-top: 10%;
     letter-spacing: 2px;
     color: #4EDE26;
+}
+
+#consultation-outer {
+    height: 800px;
+    width: 100%;
+}
+
+#form-left {
+    height: 800px;
+    width: 50%;
+    float: left;
+    background-color: red;
+}
+
+#form-right {
+    height: 800px;
+    width: 50%;
+    float: right;
+    background-color: blue;
 }
