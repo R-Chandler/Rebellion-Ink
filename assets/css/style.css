@@ -470,3 +470,28 @@ footer {
     float: right;
     background-color: blue;
 }
+
+#contact-form {
+    width: 70%;
+    height: 80%;
+    margin: 10%;
+    background-color: #3a3a3a;
+}
+
+.text-input {
+    width: 70%;
+    height: 30px;
+    margin: 20px 0;
+}
+
+.radio {}
+
+.signup label {
+    width: 30%;
+    float: left;
+    margin: 20px 0;
+}
+
+.submit-button {
+    display: block;
+}
