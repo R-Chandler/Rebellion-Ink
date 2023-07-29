@@ -471,27 +471,63 @@ footer {
     background-color: blue;
 }
 
-#contact-form {
-    width: 70%;
-    height: 80%;
-    margin: 10%;
-    background-color: #3a3a3a;
+#table {
+    display: table;
+    padding: 5px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
-.text-input {
-    width: 70%;
-    height: 30px;
-    margin: 20px 0;
+.tr {
+    display: table-row;
+    padding: 5px;
 }
 
-.radio {}
-
-.signup label {
-    width: 30%;
-    float: left;
-    margin: 20px 0;
+.td {
+    display: table-cell;
+    padding: 5px;
+    width: 600px;
+    margin: 5px;
 }
 
-.submit-button {
-    display: block;
+.td2 {
+    display: table-cell;
+    padding: 5px;
+    width: 200px;
+    margin: 5px;
+}
+
+.td3 {
+    display: table-cell;
+    padding: 5px;
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+}
+
+.td4 {
+    display: table-cell;
+    padding: 5px;
+}
+
+label {
+    float: right;
+}
+
+.message {
+    width: 95%;
+    height: 200px;
+}
+
+.input {
+    width: 90%;
+    height: 20px;
+}
+
+.submit_button {
+    float: right;
+    margin-right: 5%;
+    width: 100px;
+    height: 50px;
 }

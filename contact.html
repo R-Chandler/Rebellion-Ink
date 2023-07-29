@@ -51,33 +51,50 @@
         <h1 class="section-header">Consultation Form</h1>
         <div id="form-left"></div>
         <div id="form-right">
-            <div id="contact-form">
-                <form method="POST" action="https://formdump.codeinstitute.net/" class="signup">
-                    <label for="name">Your Name :</label>
-                    <input id="name" name="name" type="text" required class="text-input">
-
-                    <label for="email">Email Address :</label>
-                    <input type="email" id="email" name="email_address" required class="text-input">
-
-                    <label for="phone">Phone Number :</label>
-                    <input type="number" id="phone" name="phone_number" required class="text-input">
- 
-                    <label for="email">
-                    <input type="radio" id="email" name="contact_preference" value="email" class="radio" required>
-                    <span>Email</span>
-                    </label>
-                    <label for="phone">
-                    <input type="radio" id="phone" name="contact_preference" value="phone" class="radio" required>
-                    <span>Phone</span>
-                    </label>
-
-                    <label for="message"></label>
-                    <input id="message" name="message" type="text" placeholder="Your Message" required
-                        class="text-input">
-
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup">
+                <div id="table">
+                    <div class="tr">
+                        <div class="td2"><label>Your Name:</label></div>
+                        <div class="td"><input id="name" name="name" type="text" required class="input"></div>
+                    </div>
+                </div>
+                <div id="table">
+                    <div class="tr">
+                        <div class="td2"><label>Email Address:</label></div>
+                        <div class="td"><input type="email" id="email" name="email_address" required class="input">
+                        </div>
+                    </div>
+                </div>
+                <div id="table">
+                    <div class="tr">
+                        <div class="td2"><label>Phone Number:</label></div>
+                        <div class="td"><input type="number" id="phone" name="phone_number" required class="input">
+                        </div>
+                    </div>
+                </div>
+                <div id="table">
+                    <div class="tr">
+                        <div class="td2"><label>Preffered Method of Contact:</label></div>
+                        <div class="td3"><label>Email</label></div>
+                        <div class="td3"><input type="radio" id="email" name="contact_preference" value="email"
+                                class="radio" required></div>
+                        <div class="td3"><label>Phone</label></div>
+                        <div class="td3"><input type="radio" id="phone" name="contact_preference" value="phone"
+                                class="radio" required></div>
+                    </div>
+                </div>
+                <div id="table">
+                    <div class="tr">
+                        <div class="td4">
+                            <textarea id="message" name="message" placeholder="Your Message" required class="message">
+                            </textarea>
+                        </div>
+                    </div>
+                </div>
+                <div id="table">
                     <input class="submit_button" type="submit" value="Submit">
-                </form>
-            </div>
+                </div>
+            </form>
         </div>
     </section>
     <footer>
