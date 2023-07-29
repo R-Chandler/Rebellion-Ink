@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Russo One', sans-serif;
-    background-color: #3a3a3a;
+    background-color: black;
 }
 
 .section-header {
@@ -110,8 +110,8 @@ header {
 #consult-button>a {
     width: 250px;
     height: 60px;
-    color: #4EDE26;
-    border: solid 5px #4EDE26;
+    color: #ffffff;
+    border: solid 5px #ffffff;
     font-family: 'russo one', sans-serif;
     font-size: large;
     background-color: transparent;
@@ -122,8 +122,8 @@ header {
 }
 
 #consult-button a:hover {
-    color: #22AFE6;
-    border-color: #22AFE6;
+    color: #4EDE26;
+    border-color: #4EDE26;
 }
 
 /** About Us Section **/
@@ -136,7 +136,7 @@ header {
 #main-blurb {
     width: 90%;
     margin: 0 auto;
-    color: #4EDE26;
+    color: #ffffff;
     margin: auto;
     font-size: large;
     text-align: center;
@@ -154,7 +154,7 @@ header {
 #about-left {
     position: relative;
     width: 25%;
-    border: solid 5px #4EDE26;
+    border: solid 5px #ffffff;
     height: 500px;
     border-radius: 15px;
     display: inline-block;
@@ -165,7 +165,7 @@ header {
     position: relative;
     width: 25%;
     margin: 0 auto;
-    border: solid 5px #4EDE26;
+    border: solid 5px #ffffff;
     height: 500px;
     border-radius: 15px;
     display: inline-block;
@@ -176,7 +176,7 @@ header {
     position: relative;
     width: 25%;
     height: 500px;
-    border: solid 5px #4EDE26;
+    border: solid 5px #ffffff;
     border-radius: 15px;
     display: inline-block;
     margin: 3%;
@@ -210,6 +210,16 @@ header {
     margin: 0 auto;
     bottom: 10px;
     padding: 0 5% 0 5%;
+    color: #4EDE26;
+}
+
+.info-bg {
+    background: url('../images/info-box-bg.jpg') no-repeat center center;
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    position: relative;
+    background-color: #3a3a3a;
 }
 
 
@@ -239,7 +249,7 @@ header {
 #artist-box {
     position: relative;
     width: 25%;
-    border: solid 5px #4EDE26;
+    border: solid 5px #ffffff;
     height: 500px;
     border-radius: 15px;
     display: inline-block;
@@ -249,7 +259,7 @@ header {
 #artist-box>img {
     height: 250px;
     width: 250px;
-    border: 5px solid #4EDE26;
+    border: 5px solid #ffffff;
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -276,8 +286,8 @@ header {
 #artist-button>a {
     width: 250px;
     height: 60px;
-    color: #4EDE26;
-    border: solid 5px #4EDE26;
+    color: #ffffff;
+    border: solid 5px #ffffff;
     font-family: 'russo one', sans-serif;
     font-size: large;
     background-color: transparent;
@@ -288,8 +298,8 @@ header {
 }
 
 #artist-button a:hover {
-    color: #22AFE6;
-    border-color: #22AFE6;
+    color: #4EDE26;
+    border-color: #4EDE26;
 }
 
 /** Review Block **/
@@ -307,7 +317,7 @@ header {
 .review {
     height: 400px;
     width: 20%;
-    border: solid 5px #4EDE26;
+    border: solid 5px #ffffff;
     border-radius: 15px;
 }
 
@@ -330,7 +340,7 @@ header {
 .review>p {
     color: #4EDE26;
     text-align: center;
-    border-top: 2px solid #4EDE26;
+    border-top: 2px solid #ffffff;
     padding-top: 10px;
     position: relative;
     bottom: 0%;
@@ -376,7 +386,7 @@ footer {
     height: 400px;
     float: left;
     margin: 50px 0px 50px 50px;
-    border: 2px solid #4EDE26;
+    border: 2px solid #ffffff;
 }
 
 #artist-a-info {
@@ -384,7 +394,7 @@ footer {
     height: 300px;
     float: right;
     margin: 100px 50px;
-    border: 2px solid #4EDE26;
+    border: 2px solid #ffffff;
 }
 
 #artist-b-image {
@@ -392,7 +402,7 @@ footer {
     height: 400px;
     float: right;
     margin: 50px 50px 50px 0px;
-    border: 2px solid #4EDE26;
+    border: 2px solid #ffffff;
 }
 
 #artist-b-info {
@@ -400,7 +410,7 @@ footer {
     height: 300px;
     float: left;
     margin: 100px 50px;
-    border: 2px solid #4EDE26;
+    border: 2px solid #ffffff;
 }
 
 #gallery {
@@ -433,7 +443,7 @@ footer {
     width: 200px;
     border-radius: 50%;
     margin-top: 50px;
-    border: 2px solid #4EDE26;
+    border: 2px solid #ffffff;
     background-color: rgba(201, 201, 201, .4);
 }
 
