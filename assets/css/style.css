@@ -333,8 +333,8 @@ header {
     color: #4EDE26;
     font-size: 150%;
     text-align: center;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .review>p {
@@ -344,6 +344,7 @@ header {
     padding-top: 10px;
     position: relative;
     bottom: 0%;
+    font-size: small;
 }
 
 /** Footer **/
@@ -411,6 +412,12 @@ footer {
     float: left;
     margin: 100px 50px;
     border: 2px solid #ffffff;
+}
+
+#artist-section p {
+    color: white;
+    padding: 5px;
+    letter-spacing: 1px;
 }
 
 #gallery {
