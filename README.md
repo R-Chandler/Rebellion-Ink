@@ -50,9 +50,6 @@ Chair arm and tools - <a href="https://www.freepik.com/free-photo/dark-photo-dif
 Male tattoo artist - Photo by Pavel Danilyuk: https://www.pexels.com/photo/a-man-in-white-shirt-holding-a-tattoo-machine-6593424/
 Female tattoo artist - Photo by Antoni Shkraba: https://www.pexels.com/photo/a-female-tattoo-artist-sitting-in-a-tattoo-parlor-7005726/
 
-Tattoo Machine free icon - <a href="https://www.flaticon.com/free-icons/tattoo-machine" title="tattoo machine icons">Tattoo machine icons created by Freepik - Flaticon</a>
-Caring Hand Icon - <a href="https://www.flaticon.com/free-icons/care" title="care icons">Care icons created by Freepik - Flaticon</a>
-Paint Palette Icon - <a href="https://www.flaticon.com/free-icons/palette" title="palette icons">Palette icons created by Freepik - Flaticon</a>
 Info Box Background 1 - Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/photos/gIVzDR6JRWc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 Info Box Background 2 - Photo by Skylar Kang: https://www.pexels.com/photo/dark-background-with-pale-wavy-lines-6044820/ 
 
