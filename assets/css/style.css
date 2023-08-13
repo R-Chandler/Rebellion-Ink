@@ -78,7 +78,7 @@ header {
 #hero-text {
     position: relative;
     color: #4EDE26;
-    top: 30%;
+    top: 20%;
     text-align: center;
     width: 60%;
     background-color: rgba(54, 69, 79, .8);
@@ -465,22 +465,27 @@ footer {
 }
 
 #consultation-outer {
-    height: 717px;
+    height: 850px;
     width: 100%;
+    position: relative;
 }
 
-#form-left {
-    height: 600px;
-    width: 50%;
-    float: left;
-    background-color: red;
+#form-bg {
+    height: 700px;
+    width: 100%;
+    background: url('../images/contact_page_image.jpg') no-repeat center center;
+    background-size: cover;
+    position: absolute;
 }
 
 #form-right {
     height: 600px;
     width: 50%;
-    float: right;
-    background-color: blue;
+    right: 0;
+    position: absolute;
+    background-color: rgba(54, 69, 79, .8);
+    margin: 50px;
+    border-radius: 10px;
 }
 
 #table {
@@ -525,27 +530,63 @@ footer {
 
 label {
     float: right;
+    color: #4EDE26;
 }
 
 .message {
     width: 95%;
     height: 200px;
+    background-color: transparent;
+    border: 2px solid #4EDE26;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.message::placeholder {
+    color: #ffffff;
+
 }
 
 .input {
     width: 90%;
-    height: 20px;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid #4EDE26;
+    color: #ffffff;
+    letter-spacing: 1px;
 }
+
 
 .submit_button {
     float: right;
     margin-right: 5%;
     width: 100px;
     height: 50px;
+    color: #ffffff;
+    border: solid 5px #ffffff;
+    font-family: 'righteous', sans-serif;
+    font-size: large;
+    background-color: transparent;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.submit_button:hover {
+    color: #4EDE26;
+    border-color: #4EDE26;
 }
 
 
 @media screen and (max-width:1100px) {
+
+    /** Index Page Media Queries **/
+
+    #hero-text {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
 
     #about-us {
         height: 1100px;
@@ -622,6 +663,52 @@ label {
 
     .review>p {
         white-space: normal;
+    }
+
+    /** Artists Page Media Queries **/
+
+    #artist-a-image {
+        background: url('../images/artist-male.jpg');
+        background-size: cover;
+        width: 60%;
+        height: 300px;
+        margin: 50px 20% 20px 20%;
+        border: 2px solid #ffffff;
+        background-position: center;
+    }
+
+    #artist-a-info {
+        width: 90%;
+        height: 300px;
+        margin: 5%;
+        border: 2px solid #ffffff;
+    }
+
+    #artist-b-image {
+        background: url('../images/artist-female.jpg');
+        background-size: cover;
+        width: 60%;
+        height: 300px;
+        margin: 50px 20% 20px 20%;
+        border: 2px solid #ffffff;
+        background-position: center;
+    }
+
+    #artist-b-info {
+        width: 90%;
+        height: 300px;
+        margin: 5%;
+        border: 2px solid #ffffff;
+    }
+
+    .artist-info>p {
+        font-size: 1.45vw;
+    }
+
+    /** Contact Page Media Queries **/
+
+    #form-right {
+        width: 90%;
     }
 
 
