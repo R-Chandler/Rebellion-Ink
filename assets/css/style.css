@@ -188,7 +188,7 @@ header {
     text-align: center;
     font-size: 1.75em;
     letter-spacing: 2px;
-    padding: 50px;
+    padding: 10px;
     text-decoration: underline;
     color: #4EDE26;
 }
@@ -240,11 +240,7 @@ header {
 #artist-box {
     position: relative;
     width: 25%;
-    border: solid 5px #ffffff;
     height: 500px;
-    border-radius: 15px;
-    display: inline-block;
-    margin: 3%;
 }
 
 #artist-box>img {
@@ -549,4 +545,84 @@ label {
 }
 
 
-@media screen and (max-width:1100px) {}
+@media screen and (max-width:1100px) {
+
+    #about-us {
+        height: 1100px;
+    }
+
+    #main-blurb {
+        font-size: 1.5vw;
+    }
+
+    #info-box-outer {
+        flex-direction: column;
+    }
+
+    #about-left {
+        position: relative;
+        width: 90%;
+        border: solid 5px #ffffff;
+        height: 400px;
+        border-radius: 15px;
+        display: inline-block;
+        margin: 3%;
+    }
+
+    #about-center {
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        border: solid 5px #ffffff;
+        height: 400px;
+        border-radius: 15px;
+        display: inline-block;
+        margin: 3%;
+    }
+
+    #about-right {
+        position: relative;
+        width: 90%;
+        height: 400px;
+        border: solid 5px #ffffff;
+        border-radius: 15px;
+        display: inline-block;
+        margin: 3%;
+    }
+
+    #artist-box>img {
+        height: 150px;
+        width: 150px;
+        border: 5px solid #ffffff;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    #review-boxes {
+        width: auto;
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        margin: 20px;
+    }
+
+    .review {
+        width: 350px;
+        display: inline-block;
+        margin: 50px;
+    }
+
+    .review>h3 {
+        margin: 10px 10px;
+    }
+
+    .review>p {
+        white-space: normal;
+    }
+
+
+}
