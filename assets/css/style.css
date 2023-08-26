@@ -295,8 +295,8 @@ header {
 /** Review Block **/
 
 .review-block {
-    height: 600px;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .review-boxes {
@@ -427,11 +427,20 @@ footer {
     clear: both;
     line-height: 0;
     column-count: 3;
-    column-gap: 0;
+    column-gap: 20px;
 }
 
 .gallery>img {
-    width: 100%;
+    width: 95%;
+    filter: grayscale(100%);
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+    transition: all .25s ease-in-out;
+}
+
+.gallery>img:hover {
+    filter: grayscale(0%);
 }
 
 /** Contact Page **/
