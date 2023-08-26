@@ -34,17 +34,17 @@ header {
     background-color: black;
 }
 
-#logo {
+.logo {
     float: left;
     width: 25%;
     height: 50px;
 }
 
-#drop_menu {
+.drop_menu {
     display: none;
 }
 
-#menu li {
+.menu li {
     list-style-type: none;
     float: right;
     padding: 10px;
@@ -52,25 +52,25 @@ header {
     border: 2px solid #4EDE26;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: #4EDE26;
 }
 
-#menu a:hover {
-    color: #22AFE6;
+.menu a:hover {
+    color: #ffffff;
 }
 
 
 /** Hero Image Section **/
 
-#hero {
+.hero {
     height: 800px;
     width: 100%;
     overflow: hidden;
 }
 
-#hero-image {
+.hero-image {
     background: url('../images/index_hero_image.webp') no-repeat center center;
     width: 100%;
     height: 800px;
@@ -79,7 +79,7 @@ header {
     background-color: #3a3a3a;
 }
 
-#hero-text {
+.hero-text {
     position: relative;
     color: #4EDE26;
     top: 20%;
@@ -90,28 +90,28 @@ header {
     border-radius: 50px;
 }
 
-#hero-text h1 {
+.hero-text h1 {
     padding: 40px;
     font-size: 4vw;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
 
-#hero-text h3 {
+.hero-text h3 {
     padding: 40px;
     font-size: 2vw;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
 
-#consult-button {
+.consult-button {
     position: absolute;
     bottom: 15%;
     left: 50%;
     margin-left: -125px;
 }
 
-#consult-button>a {
+.consult-button>a {
     width: 250px;
     height: 60px;
     color: #ffffff;
@@ -125,19 +125,18 @@ header {
     margin: auto;
 }
 
-#consult-button a:hover {
+.consult-button a:hover {
     color: #4EDE26;
     border-color: #4EDE26;
 }
 
 /** About Us Section **/
 
-#about-us {
+.about-us {
     width: 100%;
-    height: 1000px;
 }
 
-#about-us>p {
+.about-us>p {
     width: 70%;
     max-width: 90%;
     margin: 0 auto;
@@ -148,9 +147,8 @@ header {
     margin-bottom: 10px;
 }
 
-#info-box-outer {
+.info-box-outer {
     width: 100%;
-    height: 700px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -184,30 +182,28 @@ header {
     width: 25%;
     height: 400px;
     border: solid 5px #ffffff;
+    box-shadow: 5px 10px 8px #ffffff;
     border-radius: 15px;
     display: inline-block;
     margin: 3%;
 }
 
 .info-box>h3 {
-    position: relative;
     top: 5%;
     text-align: center;
     font-size: 1.75em;
     letter-spacing: 2px;
     padding: 10px;
+    margin-bottom: 50px;
     text-decoration: underline;
     color: #4EDE26;
 }
 
 .info-box>p {
-    position: absolute;
-    font-size: 0.8em;
+    font-size: 1em;
     width: 90%;
     text-align: center;
-    margin: 0 auto;
-    bottom: 10px;
-    padding: 0 5% 0 5%;
+    padding: 1% 5% 1% 5%;
     color: #4EDE26;
 }
 
@@ -223,12 +219,12 @@ header {
 
 /** Meet Our Artists Section **/
 
-#meet-artists {
+.meet-artists {
     height: 800px;
     width: 100%;
 }
 
-#artists-image {
+.artists-image {
     background: url('../images/meet_artists.webp') no-repeat center center;
     width: 100%;
     height: 800px;
@@ -244,13 +240,13 @@ header {
     justify-content: space-around;
 }
 
-#artist-box {
+.artist-box {
     position: relative;
     width: 25%;
     height: 500px;
 }
 
-#artist-box>img {
+.artist-box>img {
     height: 250px;
     width: 250px;
     border: 5px solid #ffffff;
@@ -261,7 +257,7 @@ header {
     margin-top: 30px;
 }
 
-#artist-box>p {
+.artist-box>p {
     position: relative;
     color: #4EDE26;
     text-align: center;
@@ -270,14 +266,14 @@ header {
     border-radius: 30px;
 }
 
-#artist-button {
+.artist-button {
     position: absolute;
     bottom: 10%;
     left: 50%;
     margin-left: -125px;
 }
 
-#artist-button>a {
+.artist-button>a {
     width: 250px;
     height: 60px;
     color: #ffffff;
@@ -291,19 +287,19 @@ header {
     margin: auto;
 }
 
-#artist-button a:hover {
+.artist-button a:hover {
     color: #4EDE26;
     border-color: #4EDE26;
 }
 
 /** Review Block **/
 
-#review-block {
+.review-block {
     height: 600px;
     width: 100%;
 }
 
-#review-boxes {
+.review-boxes {
     display: flex;
     justify-content: space-around;
 }
@@ -372,7 +368,7 @@ footer {
 
 /** Meet The Artists Page **/
 
-#artist-section {
+.artist-section {
     width: 100%;
     height: 500px;
 }
@@ -421,26 +417,26 @@ footer {
     font-size: 0.85vw;
 }
 
-#artist-section p {
+.artist-section p {
     color: white;
     padding: 5px;
     letter-spacing: 1px;
 }
 
-#gallery {
+.gallery {
     clear: both;
     line-height: 0;
     column-count: 3;
     column-gap: 0;
 }
 
-#gallery>img {
+.gallery>img {
     width: 100%;
 }
 
 /** Contact Page **/
 
-#contact-info {
+.contact-info {
     position: absolute;
     height: 300px;
     width: 100%;
@@ -449,7 +445,7 @@ footer {
     bottom: 0%;
 }
 
-#contact-box {
+.contact-box {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -461,14 +457,14 @@ footer {
     background-color: rgba(54, 69, 79, .8);
 }
 
-#contact-box>i {
+.contact-box>i {
     font-size: 300%;
     margin-top: 10%;
     text-align: center;
     color: #4EDE26;
 }
 
-#contact-box>p {
+.contact-box>p {
     height: 100px;
     text-align: center;
     margin-top: 10%;
@@ -476,13 +472,13 @@ footer {
     color: #4EDE26;
 }
 
-#consultation-outer {
+.consultation-outer {
     height: 850px;
     width: 100%;
     position: relative;
 }
 
-#form-right {
+.form {
     height: 600px;
     width: 90%;
     right: 0;
@@ -492,7 +488,7 @@ footer {
     border-radius: 10px;
 }
 
-#table {
+.table {
     display: table;
     padding: 5px;
     width: 90%;
@@ -586,16 +582,16 @@ label {
 
     /** Index Page Media Queries **/
 
-    #logo {
+    .logo {
         height: 80px;
         width: 40%;
     }
 
-    #menu {
+    .menu {
         display: none;
     }
 
-    #drop_menu {
+    .drop_menu {
         display: initial;
         float: right;
         color: #4EDE26;
@@ -609,50 +605,54 @@ label {
         border: 2px solid #4EDE26;
         font-size: 80px;
         padding-left: 5px;
-    }
-
-    #drop_menu li {
-        list-style-type: none;
-        position: absolute;
-        padding: 10px;
-        font-size: 125%;
-        border: 2px solid #4EDE26;
-        display: none;
-        background-color: black;
-        min-width: 200px;
         right: 0;
     }
 
-    #drop_menu:hover li {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
+    .dropdown {
+        position: relative;
+        height: 200px;
+        width: 250px;
+        display: none;
     }
 
-    #drop_menu a {
+    .drop_menu:hover .dropdown {
+        position: absolute;
+        right: 0;
+        display: inline-block;
+        text-align: right;
+    }
+
+    .drop_menu li {
+        list-style-type: none;
+        position: relative;
+        padding: 10px;
+        font-size: 125%;
+        border: 2px solid #4EDE26;
+        background-color: black;
+        min-width: 200px;
+    }
+
+    .drop_menu a {
         text-decoration: none;
         color: #4EDE26;
     }
 
-    #drop_menu a:hover {
-        color: #22AFE6;
+    .drop_menu a:hover {
+        color: #ffffff;
     }
 
-    #hero-text {
+    .hero-text {
         width: 100%;
         margin: 0;
         border-radius: 0;
     }
 
-    #about-us {
-        height: 1100px;
-    }
-
-    #about-us>p {
+    .about-us>p {
         font-size: 1.5vw;
     }
 
-    #info-box-outer {
+    .info-box-outer {
+        justify-content: initial;
         flex-direction: column;
     }
 
@@ -660,7 +660,7 @@ label {
         position: relative;
         width: 90%;
         border: solid 5px #ffffff;
-        height: 400px;
+        height: 300px;
         border-radius: 15px;
         display: inline-block;
         margin: 3%;
@@ -671,7 +671,7 @@ label {
         width: 90%;
         margin: 0 auto;
         border: solid 5px #ffffff;
-        height: 400px;
+        height: 300px;
         border-radius: 15px;
         display: inline-block;
         margin: 3%;
@@ -680,14 +680,14 @@ label {
     #about-right {
         position: relative;
         width: 90%;
-        height: 400px;
+        height: 300px;
         border: solid 5px #ffffff;
         border-radius: 15px;
         display: inline-block;
         margin: 3%;
     }
 
-    #artist-box>img {
+    .artist-box>img {
         height: 150px;
         width: 150px;
         border: 5px solid #ffffff;
@@ -698,7 +698,7 @@ label {
         margin-top: 30px;
     }
 
-    #review-boxes {
+    .review-boxes {
         width: auto;
         display: flex;
         overflow-x: auto;

@@ -15,71 +15,73 @@
 
 <body>
     <header>
-        <a href="index.html"><img src="assets/images/RI-logo.webp" alt="Rebellion Ink Logo" id="logo">
+        <a href="index.html"><img src="assets/images/RI-logo.webp" alt="Rebellion Ink Logo" class="logo">
         </a>
-        <nav id="menu">
+        <nav class="menu">
             <ul>
                 <li><a href="/contact.html">Contact Us</a></li>
                 <li><a href="/artists.html">Meet Our Artists</a></li>
                 <li><a href="/index.html">Home</a></li>
             </ul>
         </nav>
-        <nav id="drop_menu">
+        <nav class="drop_menu">
             <div class="menu_img"><i class="fa-solid fa-bars"></i></div>
-            <ul>
-                <li><a href="/contact.html">Contact Us</a></li>
-                <li><a href="/artists.html">Meet Our Artists</a></li>
-                <li><a href="/index.html">Home</a></li>
-            </ul>
+            <div class="dropdown">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/artists.html">Meet Our Artists</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <section id="hero">
-        <div id="hero-image">
-            <div id="hero-text">
+    <section class="hero">
+        <div class="hero-image">
+            <div class="hero-text">
                 <h1>Contact Us</h1>
                 <h3>Book a consultation or drop us a message</h3>
             </div>
-            <div id="contact-info">
-                <div id="contact-box">
+            <div class="contact-info">
+                <div class="contact-box">
                     <i class="fa-solid fa-phone"></i>
                     <p>02071 <br> 234 567</p>
                 </div>
-                <div id="contact-box">
+                <div class="contact-box">
                     <i class="fa-solid fa-house"></i>
                     <p>123 London Road <br>London <br>E12 3AB</p>
                 </div>
-                <div id="contact-box">
+                <div class="contact-box">
                     <i class="fa-solid fa-envelope-open-text"></i>
                     <p>info@ <br> rebellion-ink <br> .co.uk</p>
                 </div>
             </div>
         </div>
     </section>
-    <section id="consultation-outer">
+    <section class="consultation-outer">
         <h1 class="section-header">Consultation Form</h1>
-        <div id="form-right">
+        <div class="form">
             <form method="POST" action="https://formdump.codeinstitute.net/" class="signup">
-                <div id="table">
+                <div class="table">
                     <div class="tr">
                         <div class="td2"><label>Your Name:</label></div>
                         <div class="td"><input id="name" name="name" type="text" required class="input"></div>
                     </div>
                 </div>
-                <div id="table">
+                <div class="table">
                     <div class="tr">
                         <div class="td2"><label>Email Address:</label></div>
                         <div class="td"><input type="email" id="email" name="email_address" required class="input">
                         </div>
                     </div>
                 </div>
-                <div id="table">
+                <div class="table">
                     <div class="tr">
                         <div class="td2"><label>Phone Number:</label></div>
                         <div class="td"><input type="number" id="phone" name="phone_number" required class="input">
                         </div>
                     </div>
                 </div>
-                <div id="table">
+                <div class="table">
                     <div class="tr">
                         <div class="td2"><label>Preffered Method of Contact:</label></div>
                         <div class="td3"><label>Email</label></div>
@@ -90,7 +92,7 @@
                                 class="radio" required></div>
                     </div>
                 </div>
-                <div id="table">
+                <div class="table">
                     <div class="tr">
                         <div class="td4">
                             <textarea id="message" name="message"
@@ -99,7 +101,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="table">
+                <div class="table">
                     <input class="submit_button" type="submit" value="Submit">
                 </div>
             </form>
