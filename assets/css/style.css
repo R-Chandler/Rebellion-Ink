@@ -234,7 +234,6 @@ header {
 }
 
 .artists-div {
-    height: 600px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -243,7 +242,6 @@ header {
 .artist-box {
     position: relative;
     width: 25%;
-    height: 500px;
 }
 
 .artist-box>img {
@@ -258,11 +256,22 @@ header {
 }
 
 .artist-box>p {
+    font-size: 20px;
     position: relative;
     color: #4EDE26;
     text-align: center;
     background-color: rgba(54, 69, 79, .8);
-    margin: 20% 20% 0 20%;
+    margin-top: 10%;
+    border-radius: 30px;
+}
+
+.artist-box>h3 {
+    font-size: 30px;
+    position: relative;
+    color: #4EDE26;
+    text-align: center;
+    background-color: rgba(54, 69, 79, .8);
+    margin-top: 10%;
     border-radius: 30px;
 }
 
@@ -431,7 +440,7 @@ footer {
 }
 
 .gallery>img {
-    width: 95%;
+    width: 90%;
     filter: grayscale(100%);
     border: 2px solid #ffffff;
     border-radius: 10px;
@@ -488,7 +497,6 @@ footer {
 }
 
 .form {
-    height: 600px;
     width: 90%;
     right: 0;
     position: absolute;
@@ -570,6 +578,7 @@ label {
 .submit_button {
     float: right;
     margin-right: 5%;
+    margin-bottom: 20px;
     width: 100px;
     height: 50px;
     color: #ffffff;
@@ -696,6 +705,10 @@ label {
         margin: 3%;
     }
 
+    .artists-image {
+        height: 600px;
+    }
+
     .artist-box>img {
         height: 150px;
         width: 150px;
@@ -735,9 +748,9 @@ label {
     #artist-a-image {
         background: url('../images/artist-male.webp');
         background-size: cover;
-        width: 60%;
+        width: 50%;
         height: 300px;
-        margin: 50px 20% 20px 20%;
+        margin: 50px 25% 20px 25%;
         border: 2px solid #ffffff;
         background-position: center;
     }
@@ -752,9 +765,9 @@ label {
     #artist-b-image {
         background: url('../images/artist-female.webp');
         background-size: cover;
-        width: 60%;
+        width: 50%;
         height: 300px;
-        margin: 50px 20% 20px 20%;
+        margin: 50px 25% 20px 25%;
         border: 2px solid #ffffff;
         background-position: center;
     }
