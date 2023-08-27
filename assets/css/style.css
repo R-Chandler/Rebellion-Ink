@@ -220,7 +220,6 @@ header {
 /** Meet Our Artists Section **/
 
 .meet-artists {
-    height: 800px;
     width: 100%;
 }
 
@@ -341,7 +340,7 @@ header {
     color: gold;
     font-size: 200%;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 5%;
 }
 
@@ -360,7 +359,13 @@ header {
     padding-top: 10px;
     position: relative;
     bottom: 0;
-    font-size: small;
+    font-size: medium;
+}
+
+/** Carousel - code found on codepen.io - written by Anca Spatariu **/
+
+.review-boxes-carousel {
+    display: none;
 }
 
 /** Footer **/
@@ -738,7 +743,7 @@ label {
 
     .review-boxes {
         width: auto;
-        display: flex;
+        display: none;
         overflow-x: auto;
         overflow-y: hidden;
         white-space: nowrap;
@@ -746,18 +751,162 @@ label {
     }
 
     .review {
-        width: 350px;
+        width: 100%;
+        height: 100%;
         display: inline-block;
-        margin: 50px;
     }
 
     .review>h3 {
-        margin: 10px 10px;
+        margin: 5px 10px;
     }
 
     .review>p {
         white-space: normal;
+        font-size: large;
     }
+
+    .reviewer {
+        width: 50%;
+        margin: 5% 25% 0 25%;
+    }
+
+    /** Carousel - code found on codepen.io - written by Anca Spatariu **/
+
+    .review-boxes-carousel {
+        display: initial;
+    }
+
+    .carousel {
+        margin-bottom: 100px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    ul.slides {
+        display: block;
+        position: relative;
+        height: 800px;
+        width: 100%;
+        list-style: none;
+    }
+
+    .slides * {
+        user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
+    }
+
+    ul.slides input {
+        display: none;
+    }
+
+
+    .slide-container {
+        display: block;
+    }
+
+    .slide-image {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        opacity: 0;
+        transition: all .7s ease-in-out;
+    }
+
+    .slide-image img {
+        width: auto;
+        min-width: 100%;
+        height: 100%;
+    }
+
+    .carousel-controls {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        font-size: 100px;
+        line-height: 600px;
+        color: #fff;
+    }
+
+    .carousel-controls label {
+        display: none;
+        position: absolute;
+        padding: 0 20px;
+        opacity: 1;
+        transition: opacity .2s;
+        cursor: pointer;
+    }
+
+    .slide-image:hover+.carousel-controls label {
+        opacity: 0.5;
+    }
+
+    .carousel-controls label:hover {
+        opacity: 1;
+    }
+
+    .carousel-controls .prev-slide {
+        width: 49%;
+        text-align: left;
+        left: -100px;
+    }
+
+    .carousel-controls .next-slide {
+        width: 49%;
+        text-align: right;
+        right: -100px;
+    }
+
+    .carousel-dots {
+        position: absolute;
+        right: 50%;
+        margin-right: -100px;
+        z-index: 999;
+        margin-top: 30px;
+    }
+
+    .carousel-dots .carousel-dot {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: 0.5;
+        margin: 10px;
+    }
+
+    input:checked+.slide-container .slide-image {
+        opacity: 1;
+        transform: scale(1);
+        transition: opacity 1s ease-in-out;
+    }
+
+    input:checked+.slide-container .carousel-controls label {
+        display: block;
+    }
+
+    input#img-1:checked~.carousel-dots label#img-dot-1,
+    input#img-2:checked~.carousel-dots label#img-dot-2,
+    input#img-3:checked~.carousel-dots label#img-dot-3,
+    input#img-4:checked~.carousel-dots label#img-dot-4,
+    input#img-5:checked~.carousel-dots label#img-dot-5,
+    input#img-6:checked~.carousel-dots label#img-dot-6 {
+        opacity: 1;
+    }
+
+
+    input:checked+.slide-container .nav label {
+        display: block;
+    }
+
+
 
     /** Artists Page Media Queries **/
 
