@@ -275,15 +275,15 @@ header {
 }
 
 .artist-button {
+    display: flex;
+    justify-content: center;
     position: absolute;
     bottom: 10%;
-    left: 50%;
-    margin-left: -125px;
 }
 
 .artist-button>a {
-    width: 250px;
-    height: 60px;
+    width: 150px;
+    height: 20px;
     color: #ffffff;
     border: solid 5px #ffffff;
     font-family: 'righteous', sans-serif;
@@ -329,7 +329,7 @@ header {
 }
 
 .review {
-    height: 500px;
+    height: 600px;
     width: 20%;
     border: solid 5px #ffffff;
     box-shadow: 5px 10px 8px #ffffff;
@@ -392,8 +392,7 @@ footer {
 }
 
 .socials i:hover {
-    border: 2px solid #4EDE26;
-    border-radius: 50%;
+    color: #ffffff;
 }
 
 /** Meet The Artists Page **/
@@ -946,11 +945,70 @@ label {
 
     .artist-info>p {
         font-size: 1.45vw;
+        margin: 5px;
     }
 
-    /** Contact Page Media Queries **/
+}
 
+@media screen and (max-width:768px) {
 
+    .logo {
+        width: 60%;
+    }
 
+    .hero {
+        height: 600px;
+    }
 
+    .hero-image {
+        height: 600px;
+    }
+
+    .about-us>p {
+        width: 80%;
+    }
+
+    .info-box>p {
+        font-size: 1.5vw;
+    }
+
+    .info-box>h3 {
+        margin-bottom: 25px;
+    }
+
+    #about-left {
+        height: 200px;
+    }
+
+    #about-center {
+        height: 200px;
+    }
+
+    #about-right {
+        height: 200px;
+    }
+
+    .artist-box {
+        width: 40%;
+    }
+
+    .artist-box>p {
+        display: none;
+    }
+
+    ul.slides {
+        height: 600px;
+    }
+
+    .reviewer>img {
+        width: 50%;
+    }
+
+    .artist-info>p {
+        font-size: 1.5vw;
+    }
+
+    .gallery {
+        column-count: 2;
+    }
 }
