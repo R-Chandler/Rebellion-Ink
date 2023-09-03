@@ -84,24 +84,28 @@ header {
     color: #4EDE26;
     top: 20%;
     text-align: center;
-    width: 60%;
+    width: 70%;
     background-color: rgba(54, 69, 79, .8);
-    margin: 0 20% 0 20%;
+    margin: 0 15% 0 15%;
     border-radius: 50px;
 }
 
 .hero-text h1 {
     padding: 40px;
-    font-size: 4vw;
+    font-size: 4em;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
 
 .hero-text h3 {
     padding: 40px;
-    font-size: 2vw;
+    font-size: 1.5em;
     text-transform: uppercase;
     letter-spacing: 3px;
+}
+
+.index-hero h1 {
+    font-size: 6em;
 }
 
 .consult-button {
@@ -143,7 +147,7 @@ header {
     margin: 0 auto;
     color: #ffffff;
     margin: auto;
-    font-size: 1vw;
+    font-size: 1em;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -158,7 +162,7 @@ header {
 .info-box>h3 {
     top: 5%;
     text-align: center;
-    font-size: 1.75em;
+    font-size: 2em;
     letter-spacing: 2px;
     padding: 10px;
     margin-bottom: 30px;
@@ -239,6 +243,7 @@ header {
     background-color: rgba(54, 69, 79, .8);
     margin-top: 10%;
     border-radius: 30px;
+    padding: 10px;
 }
 
 .artist-box>h3 {
@@ -379,13 +384,11 @@ footer {
 
 .artist-section {
     width: 100%;
-    height: 500px;
 }
 
 .artist-image {
     width: 25%;
     height: 400px;
-    margin: 50px 0px 50px 50px;
     border: 2px solid #ffffff;
     box-shadow: 5px 10px 8px #ffffff;
     border-radius: 10px;
@@ -393,8 +396,8 @@ footer {
 
 .artist-info {
     width: 60%;
-    height: 300px;
-    margin: 100px 50px;
+    height: 400px;
+    margin: 50px 50px;
     border: 2px solid #ffffff;
     box-shadow: 5px 10px 8px #ffffff;
     border-radius: 10px;
@@ -404,6 +407,7 @@ footer {
     background: url('../images/artist-male.webp');
     background-size: cover;
     float: left;
+    margin: 50px 0 50px 50px;
 }
 
 .dante-info {
@@ -414,6 +418,7 @@ footer {
     background: url('../images/artist-female.webp');
     background-size: cover;
     float: right;
+    margin: 50px 50px 50px 0;
 }
 
 .isla-info {
@@ -421,7 +426,8 @@ footer {
 }
 
 .artist-info>p {
-    font-size: 0.85vw;
+    font-size: 0.9em;
+    margin: 10px;
 }
 
 .artist-section p {
@@ -500,7 +506,7 @@ footer {
     right: 0;
     position: absolute;
     background-color: rgba(54, 69, 79, .8);
-    margin: 50px;
+    margin: 0 5% 0 5%;
     border-radius: 10px;
 }
 
@@ -667,10 +673,6 @@ label {
         border-radius: 0;
     }
 
-    .about-us>p {
-        font-size: 1.5vw;
-    }
-
     .info-box-outer {
         justify-content: initial;
         flex-direction: column;
@@ -722,7 +724,7 @@ label {
 
     .review>p {
         white-space: normal;
-        font-size: large;
+        font-size: 1em;
     }
 
     .reviewer {
@@ -881,13 +883,11 @@ label {
     .artist-info {
         width: 90%;
         height: 300px;
-        margin: 5%;
-        border: 2px solid #ffffff;
+        margin: 5%
     }
 
     .artist-info>p {
-        font-size: 1.45vw;
-        margin: 5px;
+        margin: 10px;
     }
 
 }
@@ -898,12 +898,8 @@ label {
         width: 60%;
     }
 
-    .hero {
-        height: 600px;
-    }
-
-    .hero-image {
-        height: 600px;
+    .index-hero h1 {
+        font-size: 4em;
     }
 
     .about-us>p {
