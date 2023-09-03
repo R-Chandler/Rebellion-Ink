@@ -15,7 +15,7 @@ body {
     font-family: 'orbitron', sans-serif;
     color: #4EDE26;
     text-align: center;
-    font-size: 4vw;
+    font-size: 3em;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -121,7 +121,7 @@ header {
     color: #ffffff;
     border: solid 5px #ffffff;
     font-family: 'orbitron', sans-serif;
-    font-size: large;
+    font-size: 1.25em;
     text-align: center;
     background-color: transparent;
     border-radius: 15px;
@@ -269,7 +269,7 @@ header {
     color: #ffffff;
     border: solid 5px #ffffff;
     font-family: 'orbitron', sans-serif;
-    font-size: large;
+    font-size: 1.25em;
     text-align: center;
     background-color: transparent;
     border-radius: 15px;
@@ -426,6 +426,7 @@ footer {
 }
 
 .artist-info>p {
+    text-align: center;
     font-size: 0.9em;
     margin: 10px;
 }
@@ -898,16 +899,16 @@ label {
         width: 60%;
     }
 
+    .section-header {
+        font-size: 2em;
+    }
+
     .index-hero h1 {
         font-size: 4em;
     }
 
     .about-us>p {
         width: 80%;
-    }
-
-    .info-box>p {
-        font-size: 2vw;
     }
 
     .info-box>h3 {
@@ -942,11 +943,123 @@ label {
         width: 50%;
     }
 
+    .artist-info {
+        height: auto;
+    }
+
     .artist-info>p {
-        font-size: 1.5vw;
+        font-size: 0.75em;
     }
 
     .gallery {
         column-count: 2;
     }
+}
+
+@media screen and (max-width:550px) {
+
+    .hero {
+        height: 700px;
+    }
+
+    .hero-image {
+        height: 700px;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5em;
+        padding: 20px;
+    }
+
+    .hero-text h3 {
+        font-size: 1.2em;
+    }
+
+    .consult-button>a {
+        width: 150px;
+        font-size: 0.8em;
+    }
+
+    .about-us>p {
+        font-size: 0.8em;
+    }
+
+    .info-box {
+        height: 300px;
+    }
+
+    .info-box>h3 {
+        font-size: 1.5em;
+    }
+
+    .info-box>p {
+        font-size: 0.8em;
+    }
+
+    .artist-box>img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .artist-box>h3 {
+        font-size: 20px;
+    }
+
+    .artist-button>a {
+        width: 150px;
+        font-size: 0.8em;
+    }
+
+    .review {
+        height: 90%;
+        box-shadow: none;
+    }
+
+    .review>h2 {
+        font-size: 1.25em;
+    }
+
+    .review>h3 {
+        font-size: 1em;
+    }
+
+    .review>p {
+        font-size: 0.8em;
+    }
+
+    .carousel-controls {
+        font-size: 60px;
+    }
+
+    .carousel-controls .prev-slide {
+        width: 49%;
+        text-align: left;
+        left: -50px;
+    }
+
+    .carousel-controls .next-slide {
+        width: 49%;
+        text-align: right;
+        right: -60px;
+    }
+
+    .carousel-dots {
+        margin-top: 0;
+    }
+
+    footer {
+        height: 60px;
+    }
+
+    .socials i {
+        font-size: 120%;
+        margin: 2% 3%;
+    }
+
+    .artist-image {
+        width: 80%;
+        margin: 50px 10% 20px 10%;
+    }
+
+
 }
