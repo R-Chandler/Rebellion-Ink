@@ -500,67 +500,72 @@ footer {
     height: 850px;
     width: 100%;
     position: relative;
+    margin-bottom: 50px;
 }
 
 .form {
-    width: 90%;
-    right: 0;
+    width: 80%;
+    height: auto;
     position: absolute;
     background-color: rgba(54, 69, 79, .8);
-    margin: 0 5% 0 5%;
+    margin: 0 10% 0 10%;
     border-radius: 10px;
 }
 
-.table {
-    display: table;
-    padding: 5px;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 20px;
-}
-
-.tr {
-    display: table-row;
-    padding: 5px;
-}
-
-.td {
-    display: table-cell;
-    padding: 5px;
-    width: 600px;
-    margin: 5px;
-}
-
-.td2 {
-    display: table-cell;
-    padding: 5px;
-    width: 200px;
-    margin: 5px;
-}
-
-.td3 {
-    display: table-cell;
-    padding: 5px;
-    width: 100px;
-    margin: 5px;
-    text-align: left;
-}
-
-.td4 {
-    display: table-cell;
-    padding: 5px;
+.form-field {
+    display: flex;
+    width: 80%;
+    margin: 0 10% 0 10%;
+    justify-content: center;
 }
 
 label {
-    float: right;
+    float: left;
+    width: 20%;
     color: #4EDE26;
+    margin: 30px;
+    text-align: right;
+    font-size: 1em;
+    padding: 0 auto;
+}
+
+.radio-line {
+    width: 40%;
+    text-align: left;
+}
+
+.radio-label {
+    width: 10%;
+    border: 2px solid #4EDE26;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.form input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.form input[type="radio"]:hover+label {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.form input[type="radio"]:focus+label {
+    color: #ffffff;
+    border: 2px solid #ffffff;
 }
 
 .message {
     width: 95%;
     height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     background-color: transparent;
     border: 2px solid #4EDE26;
+    border-radius: 10px;
     color: #ffffff;
     letter-spacing: 1px;
     font-size: 15px;
@@ -571,13 +576,16 @@ label {
 
 }
 
-.input {
-    width: 90%;
-    height: 25px;
+.form-input {
+    display: flex;
+    width: 60%;
+    height: 30px;
+    margin-top: 20px;
     background-color: transparent;
     border: 2px solid #4EDE26;
     color: #ffffff;
     letter-spacing: 1px;
+    border-radius: 10px;
 }
 
 
@@ -587,8 +595,8 @@ label {
     margin-bottom: 20px;
     width: 100px;
     height: 50px;
-    color: #ffffff;
-    border: solid 5px #ffffff;
+    color: #4EDE26;
+    border: solid 5px #4EDE26;
     font-family: 'orbitron', sans-serif;
     font-size: large;
     background-color: transparent;
@@ -597,8 +605,8 @@ label {
 }
 
 .submit_button:hover {
-    color: #4EDE26;
-    border-color: #4EDE26;
+    color: #ffffff;
+    border-color: #ffffff;
 }
 
 
@@ -954,6 +962,40 @@ label {
     .gallery {
         column-count: 2;
     }
+
+    .form-field {
+        display: block;
+    }
+
+    label {
+        display: block;
+        width: 100%;
+        text-align: center;
+        text-decoration: underline;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .form-input {
+        display: block;
+        width: 100%;
+    }
+
+    .radio-line {
+        width: 100%;
+        text-align: center;
+    }
+
+    .radio-label {
+        text-decoration: none;
+        width: 40%;
+        margin: 10px;
+
+    }
+
+    .message {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:550px) {
@@ -1061,5 +1103,22 @@ label {
         margin: 50px 10% 20px 10%;
     }
 
+    .form {
+        width: 100%;
+        margin: 0;
+    }
+
+    .form-field {
+        width: 90%;
+        margin: 0 5% 0 5%;
+    }
+
+    label {
+        margin-left: 0;
+    }
+
+    .radio-label {
+        width: 30%;
+    }
 
 }
