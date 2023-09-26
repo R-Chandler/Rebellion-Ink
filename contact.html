@@ -67,24 +67,27 @@
         <div class="form">
             <form method="POST" action="https://formdump.codeinstitute.net/" class="signup">
                 <div class="form-field">
-                    <label>Your Name</label>
+                    <label for="name">Your Name</label>
                     <input id="name" name="name" type="text" required class="form-input">
                 </div>
                 <div class="form-field">
-                    <label>Email Address</label>
+                    <label for="email">Email Address</label>
                     <input id="email" name="email_address" type="email" required class="form-input">
                 </div>
                 <div class="form-field">
-                    <label>Phone Number</label>
+                    <label for="phone">Phone Number</label>
                     <input id="phone" name="phone" type="number" required class="form-input">
                 </div>
-                <div class="form-field"><label class="radio-line">Prefered Method of Contact</label>
+                <fieldset class="form-field">
+                    <legend class="radio-line legend-class">Prefered Method of Contact</legend>
                     <input type="radio" id="radio-email" name="contact_preference" value="email" class="radio" required>
                     <label for="radio-email" class="radio-label">Email</label>
                     <input type="radio" id="radio-phone" name="contact_preference" value="phone" class="radio" required>
                     <label for="radio-phone" class="radio-label">Phone</label>
-                </div>
+                </fieldset>
                 <div class="form-field">
+                    <label for="message"
+                        aria-label="Type your message here. Detail what your dream tattoo looks like. Include size, location and any preferred style and we will contact you to arrange a booking."></label>
                     <textarea id="message" name="message"
                         placeholder="Your Message - Detail what your dream tattoo looks like. Include size, location and any preferred style and we will contact you to arrange a booking."
                         required class="message"></textarea>
