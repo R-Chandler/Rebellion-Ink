@@ -317,7 +317,13 @@ header {
     border-radius: 15px;
 }
 
-.review>h2 {
+.review-stars {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.review-stars>i {
     color: gold;
     font-size: 200%;
     text-align: center;
@@ -515,7 +521,7 @@ footer {
     justify-content: center;
 }
 
-label {
+.form-label {
     float: left;
     width: 20%;
     color: #4EDE26;
@@ -965,7 +971,7 @@ label {
         display: block;
     }
 
-    label {
+    .form-label {
         display: block;
         width: 100%;
         text-align: center;
@@ -1098,7 +1104,7 @@ label {
         margin: 0 5% 0 5%;
     }
 
-    label {
+    .form-label {
         margin-left: 0;
         margin-right: 0;
     }
