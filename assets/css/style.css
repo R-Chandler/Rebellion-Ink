@@ -659,7 +659,7 @@ footer {
         display: none;
     }
 
-    .drop_menu:focus .dropdown {
+    .drop_menu:hover .dropdown {
         position: absolute;
         right: 0;
         display: inline-block;
