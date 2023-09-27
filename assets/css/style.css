@@ -900,9 +900,6 @@ footer {
         text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
     }
 
-
-
-
     /** Artists Page Media Queries **/
 
     .artist-image {
@@ -915,7 +912,7 @@ footer {
 
     .artist-info {
         width: 90%;
-        height: 300px;
+        height: 325px;
         margin: 5%
     }
 
@@ -967,9 +964,7 @@ footer {
         display: none;
     }
 
-    ul.slides {
-        height: 600px;
-    }
+    /** Artists page media queries **/
 
     .artist-info {
         height: auto;
@@ -982,6 +977,8 @@ footer {
     .gallery {
         column-count: 2;
     }
+
+    /**Contact page media queries **/
 
     .form-field {
         display: block;
@@ -1106,10 +1103,14 @@ footer {
         margin: 2% 3%;
     }
 
+        /** Artists page media queries **/
+
     .artist-image {
         width: 80%;
         margin: 50px 10% 20px 10%;
     }
+
+    /**Contact page media queries **/
 
     .form {
         width: 100%;
