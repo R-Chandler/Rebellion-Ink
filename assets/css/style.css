@@ -11,7 +11,6 @@ body {
 
 .section-header {
     text-transform: uppercase;
-    text-decoration: underline;
     font-family: 'orbitron', sans-serif;
     color: #4EDE26;
     text-align: center;
@@ -191,7 +190,7 @@ header {
     position: relative;
     width: 30%;
     border: solid 5px #ffffff;
-    box-shadow: 5px 10px 8px #ffffff;
+    box-shadow: 5px 5px 5px #ffffff;
     height: 400px;
     border-radius: 15px;
     display: inline-block;
@@ -429,7 +428,7 @@ footer {
 
 .artist-info>p {
     text-align: center;
-    font-size: 0.9em;
+    font-size: 0.8rem;
     margin: 10px;
 }
 
@@ -457,6 +456,10 @@ footer {
 }
 
 .gallery>img:hover {
+    filter: grayscale(0%);
+}
+
+.gallery>img:active {
     filter: grayscale(0%);
 }
 
@@ -500,7 +503,8 @@ footer {
 
 .consultation-outer {
     height: 750px;
-    width: 100%;
+    width: 95%;
+    margin: 0 2.5% 0 2.5%;
     position: relative;
     margin-bottom: 50px;
 }
@@ -545,11 +549,17 @@ footer {
 }
 
 .radio-label {
-    width: 10%;
+    display: flex;
+    float: left;
+    width: 15%;
+    height: 30px;
     border: 2px solid #4EDE26;
+    color: #4EDE26;
     border-radius: 10px;
     padding: 5px;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 10px 50px;
 }
 
 .form input[type="radio"] {
@@ -666,6 +676,13 @@ footer {
         text-align: right;
     }
 
+    .drop_menu:active .dropdown {
+        position: absolute;
+        right: 0;
+        display: inline-block;
+        text-align: right;
+    }
+
     .drop_menu li {
         list-style-type: none;
         position: relative;
@@ -752,26 +769,26 @@ footer {
     }
 
     /** Carousel section - code found on codepen.io - written by Andrew Chaika (andrewchaika) **/
-    
+
     .review-boxes-carousel {
         display: initial;
     }
 
     .carousel {
-    position: relative;
-    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
-    margin-top: 26px;
+        position: relative;
+        box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+        margin-top: 26px;
     }
 
     .carousel-inner {
         position: relative;
         overflow: hidden;
         width: 70%;
-        padding: 10px;
+        padding-right: 10px;
         margin: 0 15% 0 15%;
     }
 
-    .carousel-open:checked + .carousel-item {
+    .carousel-open:checked+.carousel-item {
         position: static;
         opacity: 100;
     }
@@ -822,16 +839,15 @@ footer {
         color: #aaaaaa;
     }
 
-    #carousel-1:checked ~ .control-1,
-    #carousel-2:checked ~ .control-2,
-    #carousel-3:checked ~ .control-3,
-    #carousel-4:checked ~ .control-4 {
+    #carousel-1:checked~.control-1,
+    #carousel-2:checked~.control-2,
+    #carousel-3:checked~.control-3,
+    #carousel-4:checked~.control-4 {
         display: block;
     }
 
     .indicator-block {
         margin: 10px;
-        margin-top: 50px;
         padding: 5px;
         height: 50px;
     }
@@ -864,10 +880,10 @@ footer {
         color: #aaaaaa;
     }
 
-    #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
-    #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
-    #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
-    #carousel-4:checked ~ .control-4 ~ .carousel-indicators li:nth-child(4) .carousel-bullet {
+    #carousel-1:checked~.control-1~.carousel-indicators li:nth-child(1) .carousel-bullet,
+    #carousel-2:checked~.control-2~.carousel-indicators li:nth-child(2) .carousel-bullet,
+    #carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet,
+    #carousel-4:checked~.control-4~.carousel-indicators li:nth-child(4) .carousel-bullet {
         color: #428bca;
     }
 
@@ -979,21 +995,23 @@ footer {
         margin: 10px 0 10px 0;
     }
 
+    .legend-class {
+        display: block;
+        width: 100%;
+        text-align: center;
+        text-decoration: underline;
+        margin: 10px 0 10px 0;
+    }
+
     .form-input {
         display: block;
         width: 100%;
     }
 
-    .radio-line {
-        width: 100%;
-        text-align: center;
-    }
-
     .radio-label {
         text-decoration: none;
-        width: 40%;
-        margin: 10px;
-
+        width: 30%;
+        margin: 10px 0 10px 50px;
     }
 
     .message {
@@ -1075,11 +1093,10 @@ footer {
     .carousel-inner {
         position: relative;
         overflow: hidden;
-        width: 90%;
-        padding: 10px;
-        margin: 0 5% 0 5%;
+        width: 80%;
+        margin: 0 10% 0 10%;
     }
-    
+
     footer {
         height: 60px;
     }
@@ -1110,7 +1127,7 @@ footer {
     }
 
     .radio-label {
-        width: 30%;
+        width: 20%;
     }
 
     .contact-info {
