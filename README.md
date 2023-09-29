@@ -2,7 +2,7 @@
 
 Rebellion Ink is a tattoo studio website with a punk aesthetic.  The site has information regarding the current studio artists, including a gallery of their previous work. Finally you will be able to begin the process of booking your tattoo with the studio using the consultation form located on the contact page.
 
-![Responsive Test Image](readme_media/responsive-test.webp)(readme_media/responsive-test.webp]
+![Responsive Test Image](readme_media/responsive-test.webp)
 
 ## User stories
 
@@ -65,9 +65,9 @@ Rebellion Ink is a tattoo studio website with a punk aesthetic.  The site has in
 - Font Awesome
 ## Testing
 ### HTML Validation
-![HTML Validation](readme_media/html-vaidation.webp)(readme_media/html-validation.webp]
+![HTML Validation](readme_media/html-validation.webp)
 ### CSS Validation
-![CSS Validation](readme_media/css-vaidation.webp)(readme_media/css-validation.webp]
+![CSS Validation](readme_media/css-validation.webp)
 ### Live Testing
 I carried out life testing after the website had been deployed to GitHub pages using the following devices & browsers;
 - Desktop computer
